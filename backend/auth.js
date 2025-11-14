@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = "s3cret";
+const JWT_SECRET = JWT_SEC;
 
 
 function auth(req,res,next)
@@ -16,7 +16,6 @@ function auth(req,res,next)
             message:"Invalid credential"
         })
     }
-    //690f81ec2705842fbd7bef91
 
 }
 

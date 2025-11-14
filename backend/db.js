@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect("mongodb+srv://dindaarindam000:GNLgdxhHfDmJnsI0@cluster0.iydcqgy.mongodb.net/todoapp2");
+mongoose.connect(MONGODB_URI);
 
 const Schema=mongoose.Schema;
 const ObjectId=Schema.ObjectId;
